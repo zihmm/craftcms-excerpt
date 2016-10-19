@@ -18,7 +18,7 @@ class ExcerptTwigExtension extends Twig_Extension
     {
         $text = strip_tags($text);
 
-        if ( ! strlen($text) > $charCount)
+        if (strlen($text) < $charCount)
         {
             return $text;
         }
