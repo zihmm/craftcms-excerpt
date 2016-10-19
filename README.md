@@ -16,7 +16,6 @@ You can use it as a simple Twig filter with the `charcount` as first and an opti
 
 **Adds a link at the end**
 ```
-
 {{ entry.body | excerpt(140, '<a href="{{ entry.url }}">read more...</a>' }} 
 ```
 
