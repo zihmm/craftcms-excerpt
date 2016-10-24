@@ -3,7 +3,7 @@ An easy to use CraftCMS plugin to get an excerpt Twig functionality. The text ge
 
 ### Installation
 
-1. Upload this directory to `craft/plugins/excerpt/` on your server.
+1. Upload the `excerpt` directory to `craft/plugins/excerpt/` on your server.
 2. Enable the plugin under Craft Admin > Settings > Plugins
 
 ### Use
@@ -16,7 +16,7 @@ You can use it as a simple Twig filter with the `charcount` as first and an opti
 
 **Adds a link at the end**
 ```
-{{ entry.body | excerpt(140, '<a href="{{ entry.url }}">read more...</a>' }} 
+{{ entry.body | excerpt(140, '<a href="{{ entry.url }}">read more...</a>') }} 
 ```
 
 ## License
